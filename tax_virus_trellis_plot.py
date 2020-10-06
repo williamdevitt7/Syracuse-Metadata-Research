@@ -44,10 +44,11 @@ def import_pub_virus():
 def discover_top_names(sub_vl, pub_vl, n):
     sub_dict = {}
     pub_dict = {}
+    top_names_out = []
     top_names_dict = {}  # both
 
     # sub
-    for i in range(26):
+    for i in range(len(sub_vl)):
         for j in range(len(sub_vl[i]["Var1"].array)):
             # if key in dictionary, add its frequency to the existing value
             if ((sub_vl[i]["Var1"].array[j]) in top_names_dict):
@@ -57,17 +58,14 @@ def discover_top_names(sub_vl, pub_vl, n):
                 top_names_dict[sub_vl[i]["Var1"].array[j]] = sub_vl[i]["sub_freq"].array[j]
 
     # pub
-    for i in range(26):
+    for i in range(len(pub_vl)):
         for j in range(len(pub_vl[i]["Var1"].array)):
-            # if key in dictionary, add its frequency to the existing value
             if ((pub_vl[i]["Var1"].array[j]) in top_names_dict):
                 top_names_dict[pub_vl[i]["Var1"].array[j]] += pub_vl[i]["pub_freq"].array[j]
-            # else, add key and its existing value to dictionary
             else:
                 top_names_dict[pub_vl[i]["Var1"].array[j]] = pub_vl[i]["pub_freq"].array[j]
 
     top_names_dict = sorted(top_names_dict.items(), key=lambda x: x[1], reverse=True)
-    top_names_out = []
     count = 0
     for key, value in top_names_dict:
         print(key + " : ", end='')
