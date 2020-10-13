@@ -8,6 +8,7 @@
 # imports and declarations
 import pandas as pd
 from matplotlib import pyplot as plt
+import numpy as np
 
 # sub-virus csv imports
 def import_sub_virus():
@@ -32,6 +33,13 @@ def import_pub_virus():
         pub_virus_list.append(df)
         count += 1
     return pub_virus_list
+
+def import_top_vir_cts():
+    data = pd.read_csv('top_virus_cts.csv')
+    df = pd.DataFrame(data, columns=['year','virus','sub_count','pub_count','total_count'])
+    #print(df)
+
+    return df
 
 ########################################################################################
 
@@ -64,8 +72,8 @@ def discover_top_names(sub_vl, pub_vl, n):
     top_names_dict = sorted(top_names_dict.items(), key=lambda x: x[1], reverse=True)
     count = 0
     for key, value in top_names_dict:
-        #print(key + " : ", end='')
-        #print(value)
+        print(key + " : ", end='')
+        print(value)
         count += 1
         top_names_out.append(key)
         if count >= n:
@@ -114,22 +122,20 @@ def new_pub_lister(pub_vl, top_names_list):
     for i in range(len(pub_vl)):
         new_df = pub_top_name_binder(pub_vl[i], top_names_list)
         new_pub_vl.append(new_df)
-        #print(new_df)
+        #print(str(year),        new_df)
         year += 1
 
     return new_pub_vl
 
 #######################################################################################
 
-def plot_and_display(sub_vl, pub_vl): # takes final sub and pub of 9 3yr aggs each and plots them
-    # take sub_vl and pub_vl from new_subvl_final, new_pubvl_final (size 9 each)
-    # 3x3 subplots, 92-94, 95-97, 98-00, 01-03, 04-06, 07-09, 10-12, 13-15, 16-18
-    #fig, ax = plt.subplots(3, 3, sharex='col', sharey='row') #what to do for trellis
-    #plt.show()
+def plot_and_display(sub_vl, pub_vl, top_cts): # takes final sub and pub of 9 3yr aggs each and plots them
+    # import my top virus counts file
     plt.winter()
-    plt.plot('Var1', 'sub_freq', '--ok', lw=0.3, ms=1, aa=True, data=sub_vl[6])  # sub = black line
-    plt.plot('Var1', 'pub_freq', '--or', lw=0.3, ms=1, aa=True, data=pub_vl[6])  # pub = magenta line
-    #plt.xticks(rotation=90)
+    #print(top_cts)
+    plt.plot('Var1', 'sub_freq', '--ok', lw=0.3, ms=1, aa=True, data=top_cts['sub_count'])  # sub = black line
+    plt.plot('Var1', 'pub_freq', '--or', lw=0.3, ms=1, aa=True, data=top_cts['pub_count'])  # pub = magenta line
+    plt.xticks(rotation=90)
     #plt.tight_layout()
     #plt.xlim(-0.1, 28)
     #plt.ylim(-80, 3500)
@@ -138,24 +144,24 @@ def plot_and_display(sub_vl, pub_vl): # takes final sub and pub of 9 3yr aggs ea
     plt.title("Year: 1997")
     plt.legend()
 
-    plt.show()
+    #plt.show()
 
 #######################################################################################
 
 if __name__ == '__main__': # execute code / main
     sub_virus_list = import_sub_virus() # list of all .csv files for sub_virus
     pub_virus_list = import_pub_virus() # list of all .csv files for pub_virus
+    top_vir_cts = import_top_vir_cts()
+    #print(top_vir_cts)
     # n is the number of years desired in top virus names list
     top_virus_list = discover_top_names(sub_virus_list, pub_virus_list, 5)
-    #top_virus_list = discover_top_names([], pub_virus_list, 10)  # nosub
-    #top_virus_list = discover_top_names(sub_virus_list, [], 10)  #nopub
+    #pub_top_virus_list = discover_top_names([], pub_virus_list, 5) 
+    #sub_top_virus_list = discover_top_names(sub_virus_list, [], 5)
     new_sub_vl = new_sub_lister(sub_virus_list, top_virus_list)
     new_pub_vl = new_pub_lister(pub_virus_list, top_virus_list)
     #print(new_sub_vl)
     #print(new_pub_vl)
 
-    #plot_and_display(new_sub_vl, new_pub_vl)
-    #plot_and_display(sub_vl_TOGRAPH, pub_vl_TOGRAPH)
-
+    plot_and_display(new_sub_vl, new_pub_vl, top_vir_cts)
 
 
