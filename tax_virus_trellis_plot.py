@@ -8,7 +8,7 @@
 # imports and declarations
 import pandas as pd
 from matplotlib import pyplot as plt
-import numpy as np
+#import numpy as np
 
 # sub-virus csv imports
 def import_sub_virus():
@@ -111,7 +111,7 @@ def new_sub_lister(sub_vl, top_names_list):
     for i in range(len(sub_vl)):
         new_df = sub_top_name_binder(sub_vl[i], top_names_list)
         new_sub_vl.append(new_df)
-        #print(new_df['sub_freq'].iloc[4])
+        #print(str(year),new_df)
         year += 1
 
     return new_sub_vl
@@ -122,11 +122,15 @@ def new_pub_lister(pub_vl, top_names_list):
     for i in range(len(pub_vl)):
         new_df = pub_top_name_binder(pub_vl[i], top_names_list)
         new_pub_vl.append(new_df)
-        #print(str(year),        new_df)
+        #print(str(year),new_df)
         year += 1
 
     return new_pub_vl
 
+# takes a dataframe, checks if it contains data for every given virus name,
+# and if not, adds each missing virus name to the dataframe. call this in binders
+def dataFrame_Normalizer(top_names_list, df):
+    print("fuck")
 #######################################################################################
 
 def plot_and_display(sub_vl, pub_vl, top_cts): # takes final sub and pub of 9 3yr aggs each and plots them
@@ -154,8 +158,8 @@ if __name__ == '__main__': # execute code / main
     top_vir_cts = import_top_vir_cts()
     #print(top_vir_cts)
     # n is the number of years desired in top virus names list
-    top_virus_list = discover_top_names(sub_virus_list, pub_virus_list, 5)
-    #pub_top_virus_list = discover_top_names([], pub_virus_list, 5) 
+    top_virus_list = discover_top_names(sub_virus_list, pub_virus_list, 10)
+    #pub_top_virus_list = discover_top_names([], pub_virus_list, 5)
     #sub_top_virus_list = discover_top_names(sub_virus_list, [], 5)
     new_sub_vl = new_sub_lister(sub_virus_list, top_virus_list)
     new_pub_vl = new_pub_lister(pub_virus_list, top_virus_list)
