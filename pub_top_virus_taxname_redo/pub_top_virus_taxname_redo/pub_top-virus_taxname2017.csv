@@ -1,0 +1,918 @@
+"","Var1","Freq"
+"383","Human immunodeficiency virus 1",111
+"346","Hepatitis E virus",35
+"339","Hepatitis B virus",31
+"338","Hepacivirus C",29
+"916","Zika virus",27
+"740","Rotavirus A",23
+"592","Norovirus GII",21
+"228","Dengue virus 1",16
+"679","Porcine epidemic diarrhea virus",14
+"674","Porcine circovirus 2",13
+"11","African swine fever virus",12
+"713","Rabies lyssavirus",12
+"47","Avian avulavirus 1",11
+"166","Chikungunya virus",11
+"390","Human papillomavirus type 16",11
+"682","Porcine reproductive and respiratory syndrome virus",11
+"210","Crimean-Congo hemorrhagic fever orthonairovirus",10
+"404","Human rotavirus A",10
+"675","Porcine circovirus 3",10
+"229","Dengue virus 2",9
+"412","Infectious bronchitis virus",9
+"693","Potato virus Y",9
+"711","Rabbit hemorrhagic disease virus",9
+"215","Cucumber mosaic virus",8
+"593","Norovirus GII.17",8
+"780","Severe fever with thrombocytopenia virus",8
+"903","West Nile virus",8
+"406","Human T-cell leukemia virus type I",7
+"413","Infectious bursal disease virus",7
+"98","Bluetongue virus",6
+"393","Human parechovirus 3",6
+"554","Middle East respiratory syndrome-related coronavirus",6
+"776","Senecavirus A",6
+"792","Small ruminant morbillivirus",6
+"55","Avian orthoreovirus",5
+"71","Bat coronavirus",5
+"114","Bovine leukemia virus",5
+"141","Canine parvovirus",5
+"227","Dengue virus",5
+"230","Dengue virus 3",5
+"261","Enterovirus D68",5
+"284","Feline leukemia virus",5
+"365","Human alphaherpesvirus 2",5
+"398","Human respiratory syncytial virus A",5
+"481","Japanese encephalitis virus",5
+"850","Tick-borne encephalitis virus",5
+"869","Tomato yellow leaf curl virus",5
+"889","Usutu virus",5
+"907","White spot syndrome virus",5
+"44","Atypical porcine pestivirus",4
+"139","Canine morbillivirus",4
+"255","Enterovirus A71",4
+"270","Equine hepacivirus",4
+"294","Foot-and-mouth disease virus - type O",4
+"306","Getah virus",4
+"348","Hepatovirus A",4
+"389","Human papillomavirus",4
+"400","Human respirovirus 3",4
+"517","Lumpy skin disease virus",4
+"526","Maize yellow mosaic virus",4
+"633","Papaya ringspot virus W",4
+"666","Piscine orthoreovirus",4
+"707","Puumala orthohantavirus",4
+"732","Rice yellow mottle virus",4
+"824","Sugarcane mosaic virus",4
+"851","Tilapia lake virus",4
+"861","Tomato leaf curl New Delhi virus",4
+"867","Tomato spotted wilt orthotospovirus",4
+"50","Avian coronavirus",3
+"150","Carp edema virus",3
+"180","Classical swine fever virus",3
+"224","Deformed wing virus",3
+"259","Enterovirus C",3
+"283","Feline immunodeficiency virus",3
+"298","Fowl aviadenovirus 4",3
+"302","Gallid alphaherpesvirus 1",3
+"319","Grapevine Pinot gris virus",3
+"323","Grapevine rupestris vein feathering virus",3
+"324","Grapevine Syrah virus 1",3
+"345","Hepatitis delta virus",3
+"377","Human gammaherpesvirus 4",3
+"386","Human mastadenovirus D",3
+"387","Human metapneumovirus",3
+"415","Infectious pancreatic necrosis virus",3
+"532","Mamastrovirus sp.",3
+"566","Mumps rubulavirus",3
+"583","Nectarine stem pitting-associated virus",3
+"590","Norovirus GI",3
+"596","Norovirus GII.4",3
+"619","Orchid fleck dichorhavirus",3
+"631","Papaya leaf curl virus",3
+"676","Porcine deltacoronavirus",3
+"680","Porcine kobuvirus",3
+"685","Porcine rotavirus C",3
+"692","Potato virus S",3
+"712","Rabbit hemorrhagic disease virus 2",3
+"753","Sacbrood virus",3
+"761","Salmon isavirus",3
+"778","Seoul orthohantavirus",3
+"784","Shrimp hemocyte iridescent virus",3
+"786","Simian immunodeficiency virus",3
+"826","Suid alphaherpesvirus 1",3
+"837","Sweet potato leaf curl virus",3
+"859","Tomato chlorotic spot virus",3
+"866","Tomato ringspot virus",3
+"886","uncultured virus",3
+"898","Viral hemorrhagic septicemia virus",3
+"915","Zaire ebolavirus",3
+"1","Abisko virus",2
+"15","Akabane virus",2
+"16","Aleutian mink disease virus",2
+"21","Alternanthera yellow vein virus",2
+"34","Apis rhabdovirus 1",2
+"45","Atypical porcine pestivirus 1",2
+"52","Avian leukosis virus",2
+"54","Avian metapneumovirus",2
+"57","Avian paramyxovirus 15",2
+"60","Avipoxvirus sp.",2
+"66","Bamboo mosaic virus",2
+"73","Bat Hepatitis B virus",2
+"77","Bean common mosaic necrosis virus",2
+"82","Beet curly top virus",2
+"87","Betanodavirus sp.",2
+"88","Big Cypress virus",2
+"92","Black currant leaf chlorosis associated virus",2
+"96","Blackberry Virus F",2
+"105","Borna disease virus 1",2
+"116","Bovine papillomavirus",2
+"117","Bovine respirovirus 3",2
+"122","Broad bean wilt virus 2",2
+"131","Cacao swollen shoot virus",2
+"135","Canine astrovirus",2
+"147","Canna yellow streak virus",2
+"151","Carp sprivivirus",2
+"163","Cherry virus A",2
+"168","Chilli ringspot virus",2
+"179","Citrus yellow vein clearing virus",2
+"186","Columbid alphaherpesvirus 1",2
+"200","Cowpox virus",2
+"202","Coxsackievirus A16",2
+"205","Coxsackievirus A6",2
+"209","Coxsackievirus B5",2
+"214","Ctenolabrus rupestris betanodavirus",2
+"216","Cucurbit aphid-borne yellows virus",2
+"221","Cymbidium mosaic virus",2
+"245","Echovirus E18",2
+"246","Echovirus E30",2
+"254","Enterovirus A",2
+"257","Enterovirus B",2
+"260","Enterovirus D",2
+"262","Enterovirus G",2
+"269","Equine arteritis virus",2
+"277","European bat 1 lyssavirus",2
+"278","European bat 2 lyssavirus",2
+"292","Foot-and-mouth disease virus - type A",2
+"303","Gallid alphaherpesvirus 2",2
+"304","GB virus C",2
+"312","Goose parvovirus",2
+"315","Grapevine fabavirus",2
+"318","Grapevine leafroll-associated virus 3",2
+"320","Grapevine red blotch virus",2
+"321","Grapevine Red Globe virus",2
+"331","Hantaan orthohantavirus",2
+"340","Hepatitis C virus subtype 1a",2
+"364","Human alphaherpesvirus 1",2
+"371","Human bocavirus",2
+"373","Human coronavirus 229E",2
+"378","Human gammaherpesvirus 8",2
+"382","Human immunodeficiency virus",2
+"384","Human mastadenovirus B",2
+"385","Human mastadenovirus C",2
+"388","Human orthopneumovirus",2
+"392","Human papillomavirus type 35",2
+"394","Human parechovirus 4",2
+"395","Human parvovirus 4",2
+"396","Human poliovirus 1",2
+"401","Human rhinovirus A21",2
+"403","Human rhinovirus sp.",2
+"405","Human rotavirus C",2
+"410","Imjin virus",2
+"483","JC polyomavirus",2
+"484","Johnsongrass mosaic virus",2
+"487","Kadipiro virus",2
+"519","Lymantria dispar multiple nucleopolyhedrovirus",2
+"524","Maize Iranian mosaic nucleorhabdovirus",2
+"533","Mammalian rubulavirus 5",2
+"542","Measles virus genotype D8",2
+"568","Mumps virus genotype F",2
+"580","Myxoma virus",2
+"587","Nienokoue virus",2
+"599","Norovirus GIV",2
+"614","Odocoileus adenovirus 1",2
+"620","Orf virus",2
+"632","Papaya ringspot virus",2
+"635","Parechovirus A",2
+"636","Parietaria mottle virus",2
+"640","Peach leaf pitting-associated virus",2
+"651","Pepper mild mottle virus",2
+"663","Pigeonpea sterility mosaic emaravirus 1",2
+"668","Plantago asiatica mosaic virus",2
+"669","Plum bark necrosis stem pitting-associated virus",2
+"671","Porcine astrovirus 3",2
+"673","Porcine circovirus-like virus P1",2
+"684","Porcine rotavirus A",2
+"726","Rhinovirus A",2
+"727","Rhinovirus C",2
+"733","Rift Valley fever phlebovirus",2
+"734","Rift Valley fever virus",2
+"746","Rotavirus G",2
+"764","Sapelovirus A",2
+"775","Seewis virus",2
+"796","Sodiomyces alkalinus partitivirus 2",2
+"841","Tai Forest reovirus",2
+"863","Tomato mosaic virus",2
+"871","Torque teno Leptonychotes weddellii virus-1",2
+"882","Turnip mosaic virus",2
+"883","Ugandan cassava brown streak virus",2
+"901","Watermelon mosaic virus",2
+"912","Yellow fever virus",2
+"917","Zucchini yellow mosaic virus",2
+"2","Acanthamoeba polyphaga mimivirus",1
+"3","Acipenserid herpesvirus 2",1
+"4","Actinidia virus A",1
+"5","Adonis mosaic virus",1
+"6","Aedes aegypti anphevirus",1
+"7","Aedes camptorhynchus toti-like virus 1",1
+"8","Aeromonas phage 3",1
+"9","Aeromonas phage VTCCBPA5",1
+"10","African eggplant yellowing virus",1
+"12","Agropyron mosaic virus",1
+"13","Aichi virus 1",1
+"14","Aimelvirus 1",1
+"17","Alfalfa mosaic virus",1
+"18","Alfalfa virus S",1
+"19","Alkhumra hemorrhagic fever virus",1
+"20","Alstroemeria necrotic streak virus",1
+"22","Alternaria botybirnavirus 1",1
+"23","Alteromonas virus vB_AspP-H4/4",1
+"24","Ambe virus",1
+"25","Ambidensovirus CaaDV1",1
+"26","Amdoparvovirus sp.",1
+"27","American plum line pattern virus",1
+"28","Anaconda paramyxovirus",1
+"29","Anatid alphaherpesvirus 1",1
+"30","Anopheles annulipes orbivirus",1
+"31","Antonospora locustae virus 1",1
+"32","Aphid lethal paralysis virus",1
+"33","Aphis glycines virus 3",1
+"35","Apple-associated luteovirus",1
+"36","Apricot pseudo-chlorotic leaf spot virus",1
+"37","Aquamicrobium phage P14",1
+"38","Armigeres iflavirus",1
+"39","Arracacha virus V",1
+"40","Asian prunus virus 2",1
+"41","Astrovirus sp.",1
+"42","Astrovirus VA1",1
+"43","Ateline alphaherpesvirus 1",1
+"46","Australian Anopheles totivirus",1
+"48","Avian avulavirus 4",1
+"49","Avian avulavirus 8",1
+"51","Avian gyrovirus 2",1
+"53","Avian leukosis virus ev/J",1
+"56","Avian paramyxovirus 14",1
+"58","Avian paramyxovirus 20",1
+"59","Avian paramyxovirus UPO216",1
+"61","Azobacteroides phage ProJPt-Bp1",1
+"62","Bacillus phage Lurz2",1
+"63","Bacillus phage phi3T",1
+"64","Bacillus phage vB_BsuM-Goe2",1
+"65","Balkan virus",1
+"67","Bank vole virus",1
+"68","Banna virus",1
+"69","Barley yellow dwarf virus PAV",1
+"70","Bat calicivirus",1
+"72","Bat filovirus",1
+"74","Bat mastadenovirus WIV17",1
+"75","Bat SARS-like coronavirus",1
+"76","Beak and feather disease virus",1
+"78","Bean common mosaic virus",1
+"79","Bean leaf crumple virus",1
+"80","Bean yellow mosaic virus",1
+"81","Beauveria bassiana partitivirus 1",1
+"83","Beet ringspot virus",1
+"84","Bellflower veinal mottle virus",1
+"85","Bemisia-associated genomovirus AdDF",1
+"86","Betacoronavirus sp.",1
+"89","Big Sioux River virus",1
+"90","Biomphalaria virus 1",1
+"91","Bipolaris maydis partitivirus 1",1
+"93","Black queen cell virus",1
+"94","Blackberry chlorotic ringspot virus",1
+"95","Blackberry leaf mottle associated virus",1
+"97","Blueberry fruit drop associated virus",1
+"99","Bluetongue virus 1",1
+"100","Bluetongue virus 2",1
+"101","Bluetongue virus 3",1
+"102","Bluetongue virus 4",1
+"103","Bodo saltans virus",1
+"104","Bokeloh bat lyssavirus",1
+"106","Botryosphaeria dothidea chrysovirus 1",1
+"107","Botrytis cinerea mitovirus 1",1
+"108","Bourbon virus",1
+"109","Bovine astrovirus",1
+"110","Bovine coronavirus",1
+"111","Bovine ephemeral fever virus",1
+"112","Bovine group B rotavirus",1
+"113","Bovine hepacivirus",1
+"115","Bovine orthopneumovirus",1
+"118","Bovine viral diarrhea virus 1",1
+"119","Bovine viral diarrhea virus 2",1
+"120","Bovine viral diarrhea virus 3",1
+"121","Brassica campestris chrysovirus 1",1
+"123","Brucella phage Iz",1
+"124","Bruges orthohantavirus",1
+"125","Bruges virus",1
+"126","Bubaline alphaherpesvirus 1",1
+"127","Burkholderia phage vB_BceM_AP3",1
+"128","Bustos virus",1
+"129","Cacao mild mosaic virus",1
+"130","Cacao swollen shoot Togo A virus",1
+"132","Calanthe mild mosaic virus",1
+"133","Camelpox virus",1
+"134","Camula virus",1
+"136","Canine bocavirus",1
+"137","Canine coronavirus",1
+"138","Canine kobuvirus",1
+"140","Canine papillomavirus",1
+"142","Canine parvovirus 2",1
+"143","Canine parvovirus 2a",1
+"144","Canine parvovirus 2c",1
+"145","Caninovirus sp.",1
+"146","Canna yellow mottle virus",1
+"148","Caprine arthritis encephalitis virus",1
+"149","Caprine picobirnavirus",1
+"152","Cassava common mosaic virus",1
+"153","Cassava virus X",1
+"154","Castlerea virus",1
+"155","Catovirus CTV1",1
+"156","Caulobacter phage Ccr10",1
+"157","Ceratobasidium partitivirus CP-a1",1
+"158","Cereal yellow dwarf virus RPV",1
+"159","Chandipura virus",1
+"160","Chequa iflavirus",1
+"161","Cherax quadricarinatus iridovirus",1
+"162","Cherry rusty mottle associated virus",1
+"164","Chicken anemia virus",1
+"165","Chickpea chlorotic dwarf virus",1
+"167","Chilli leaf curl virus",1
+"169","Chilli veinal mottle virus",1
+"170","Chrysanthemum stem necrosis virus",1
+"171","Circo-like virus-Brazil",1
+"172","Circovirus sp.",1
+"173","Citrus chlorotic dwarf associated virus",1
+"174","Citrus concave gum-associated virus",1
+"175","Citrus endogenous pararetrovirus",1
+"176","Citrus leprosis virus N",1
+"177","Citrus sudden death-associated virus",1
+"178","Citrus tristeza virus",1
+"181","Clematis chlorotic mottle virus",1
+"182","Cleome leaf crumple virus",1
+"183","Clostridioides phage phiSemix9P1",1
+"184","Cocksfoot mottle virus",1
+"185","Colletotrichum camelliae filamentous virus 1",1
+"187","Common bean severe mosaic virus",1
+"188","Common midwife toad virus",1
+"189","Coronavirus AcCoV-JC34",1
+"190","Coronavirus HKU15",1
+"191","Coronavirus HKU23",1
+"192","Cosavirus D",1
+"193","Cotton leaf curl betasatellite",1
+"194","Cotton leaf curl Kokhran virus",1
+"195","Cotton leaf curl Multan virus",1
+"196","Cotton leaf curl virus",1
+"197","Cowpea aphid-borne mosaic virus",1
+"198","Cowpea mild mottle virus",1
+"199","Cowpea polerovirus 1",1
+"201","Coxsackievirus A14",1
+"203","Coxsackievirus A24",1
+"204","Coxsackievirus A4",1
+"206","Coxsackievirus B1",1
+"207","Coxsackievirus B2",1
+"208","Coxsackievirus B3",1
+"211","Cronobacter phage vB_CsaM_leB",1
+"212","Cryptophlebia leucotreta granulovirus",1
+"213","Cryptosporidium parvum virus 1",1
+"217","Culex flavivirus",1
+"218","Cutavirus",1
+"219","Cyclopterus lumpus virus",1
+"220","Cyclovirus sp.",1
+"222","Cyprinid herpesvirus 1",1
+"223","Datura leaf curl virus",1
+"225","Deinbollia mosaic virus",1
+"226","Deltapapillomavirus 4",1
+"231","Dengue virus 4",1
+"232","Desmodium mottle virus",1
+"233","Desmodus rotundus circovirus 1",1
+"234","Desmodus rotundus parvovirus",1
+"235","Dianke virus",1
+"236","Dickeya phage JA15",1
+"237","Dioscorea bacilliform RT virus",1
+"238","Dioscorea bacilliform RT virus 2",1
+"239","Dioscorea bacilliform virus",1
+"240","Diporeia-associated CRESS-DNA virus LH481",1
+"241","Dolphin morbillivirus",1
+"242","Dromedary camel bocaparvovirus 1",1
+"243","Dugbe orthonairovirus",1
+"244","Eastern grey kangaroopox virus",1
+"247","Echovirus E5",1
+"248","Echovirus E6",1
+"249","Echovirus E7",1
+"250","Eidolon helvum adenovirus",1
+"251","Elephant endotheliotropic herpesvirus 4",1
+"252","Elephantid betaherpesvirus 1",1
+"253","Elm carlavirus",1
+"256","Enterovirus AN12",1
+"258","Enterovirus B106",1
+"263","Enterovirus goat/JL14",1
+"264","Enterovirus sp.",1
+"265","Eptesipox virus",1
+"266","Equid alphaherpesvirus 1",1
+"267","Equid alphaherpesvirus 3",1
+"268","Equid alphaherpesvirus 4",1
+"271","Equine rotavirus A",1
+"272","Equus caballus papillomavirus 1",1
+"273","Escherichia phage DTL",1
+"274","Escherichia phage HP3",1
+"275","Escherichia phage SUSP1",1
+"276","Escherichia virus mutPK1A2",1
+"279","European mountain ash ringspot-associated emaravirus",1
+"280","Faba bean necrotic stunt virus",1
+"281","Falcon picornavirus",1
+"282","Fathead minnow calicivirus",1
+"285","Feline panleukopenia virus",1
+"286","Feline parvovirus",1
+"287","Feline picobirnavirus",1
+"288","Felis catus adenovirus",1
+"289","Felis catus papillomavirus type 5",1
+"290","Flamingopox virus FGPVKD09",1
+"291","Flavobacterium phage FLiP",1
+"293","Foot-and-mouth disease virus - type Asia 1",1
+"295","Foot-and-mouth disease virus - type SAT 1",1
+"296","Foot-and-mouth disease virus - type SAT 2",1
+"297","Fowl adenovirus",1
+"299","Fowl aviadenovirus A",1
+"300","Fowlpox virus",1
+"301","Gairo mammarenavirus",1
+"305","Gemmata phage BHS4",1
+"307","Giant grouper nervous necrosis virus",1
+"308","Giant panda polyomavirus",1
+"309","Goose astrovirus",1
+"310","Goose calicivirus",1
+"311","Goose megrivirus",1
+"313","Goose picornavirus 1",1
+"314","Gorilla bocaparvovirus 2",1
+"316","Grapevine geminivirus A",1
+"317","Grapevine leafroll-associated virus 1",1
+"322","Grapevine rupestris stem pitting-associated virus",1
+"325","Grapevine vein clearing virus",1
+"326","Grapevine virus G",1
+"327","Grapevine virus H",1
+"328","Grapevine virus T",1
+"329","Groundnut bud necrosis virus",1
+"330","Groundnut rosette assistor virus",1
+"332","Harrier picornavirus 1",1
+"333","HBV genotype B",1
+"334","HBV genotype C",1
+"335","Hedgehog dicipivirus",1
+"336","Helicobacter phage UKEN31U",1
+"337","Heliothis virescens ascovirus 3h",1
+"341","Hepatitis C virus subtype 1b",1
+"342","Hepatitis C virus subtype 2a",1
+"343","Hepatitis C virus subtype 2b",1
+"344","Hepatitis C virus subtype 3a",1
+"347","Hepatitis E virus type 3",1
+"349","Heterobasidion partitivirus 20",1
+"350","Heterobasidion partitivirus 7",1
+"351","Hibiscus chlorotic ringspot virus",1
+"352","Himalayan marmot bocaparvovirus 1",1
+"353","Hirame novirhabdovirus",1
+"354","Holmes Jungle virus",1
+"355","Hom-1 vesivirus",1
+"356","Horseshoe bat hepatitis B virus",1
+"357","Hubei virga-like virus 11",1
+"358","Hudisavirus sp.",1
+"359","Human adenovirus 55",1
+"360","Human adenovirus 7",1
+"361","Human adenovirus D8",1
+"362","Human adenovirus E4",1
+"363","Human adenovirus sp.",1
+"366","Human alphaherpesvirus 3",1
+"367","Human astrovirus",1
+"368","Human astrovirus 8",1
+"369","Human betaherpesvirus 5",1
+"370","Human betaherpesvirus 6A",1
+"372","Human bocavirus 1",1
+"374","Human coronavirus OC43",1
+"375","Human enterovirus",1
+"376","Human fecal virus Tarto",1
+"379","Human gokushovirus",1
+"380","Human hepatitis A virus",1
+"381","Human hepegivirus",1
+"391","Human papillomavirus type 2",1
+"397","Human PoSCV5-like circular virus",1
+"399","Human respiratory syncytial virus B",1
+"402","Human rhinovirus C3",1
+"407","Hyacinth mosaic virus",1
+"408","Hymenoscyphus fraxineus mitovirus 1",1
+"409","Idotea virus IWaV278",1
+"411","Impatiens necrotic spot virus",1
+"414","Infectious hematopoietic necrosis virus",1
+"416","Infectious spleen and kidney necrosis virus",1
+"417","Influenza A virus",1
+"418","Influenza A virus (A/Alberta/206/2016(H3N2))",1
+"419","Influenza A virus (A/aquatic bird/Korea/MA-44/2011(H7N3))",1
+"420","Influenza A virus (A/Aragon/270/2014(H1N1))",1
+"421","Influenza A virus (A/black-necked crane/Zhaotong/ZT-12/2013(H1N2))",1
+"422","Influenza A virus (A/black swan/Akita/1/2016(H5N6))",1
+"423","Influenza A virus (A/black swan/Akita/2/2016(H5N6))",1
+"424","Influenza A virus (A/blue-winged teal/Wyoming/AH0099021/2016(H7N9))",1
+"425","Influenza A virus (A/Cameroon/14V-3881/2014(H3N2))",1
+"426","Influenza A virus (A/canine/South Korea/0173915/2015(H3N2))",1
+"427","Influenza A virus (A/cat/Zhejiang/C1/2016(H5N6))",1
+"428","Influenza A virus (A/chicken/Burkina Faso/17RS93-19/2017(H9N2))",1
+"429","Influenza A virus (A/chicken/Fujian/S1017/2014(H7N9))",1
+"430","Influenza A virus (A/chicken/Guangdong/J1/2017(H7N9))",1
+"431","Influenza A virus (A/chicken/Guangdong/Q1/2016(H7N9))",1
+"432","Influenza A virus (A/chicken/Moscow/94/2017(H5N8))",1
+"433","Influenza A virus (A/chicken/Netherlands/11009919/2011(H1N1))",1
+"434","Influenza A virus (A/chicken/Pakistan/660BYP/2015(H9N2))",1
+"435","Influenza A virus (A/chicken/Shandong/196/2011(H9N2))",1
+"436","Influenza A virus (A/chicken/Sichuan/LB/2013(H9N2))",1
+"437","Influenza A virus (A/chicken/Taiwan/CY-A2628/2012(H5N2))",1
+"438","Influenza A virus (A/chicken/Yuhuan/YH14/2016(H1N2))",1
+"439","Influenza A virus (A/chicken/Zhejiang/194/2016(H5N2))",1
+"440","Influenza A virus (A/common teal/Shanghai/JDS36/2016(H5N6))",1
+"441","Influenza A virus (A/duck/China/E26/2012(H5N1))",1
+"442","Influenza A virus (A/duck/Liaoning/LN/2011(H5N5))",1
+"443","Influenza A virus (A/duck/Zhejiang/1026109/2015(H5N2))",1
+"444","Influenza A virus (A/duck/Zhejiang/D1/2013(H1N2))",1
+"445","Influenza A virus (A/environment/Beijing/3/2016(H9N2))",1
+"446","Influenza A virus (A/environment/Gainesville/01/2016(H1N1))",1
+"447","Influenza A virus (A/environment/Korea/W541/2016(H5N6))",1
+"448","Influenza A virus (A/equine/Ankara/1/2013(H3N8))",1
+"449","Influenza A virus (A/equine/France/1/1973(H3N8))",1
+"450","Influenza A virus (A/equine/Kentucky/1/1999(H3N8))",1
+"451","Influenza A virus (A/equine/Sao_Paulo/4.FMVZ/2015(H3N8))",1
+"452","Influenza A virus (A/feline/New York/16-040082-1/2016(H7N2))",1
+"453","Influenza A virus (A/Guangdong/MZ058/2016(H9N2))",1
+"454","Influenza A virus (A/herring gull/Finland/9875/2005(H13))",1
+"455","Influenza A virus (A/India/P122576/2012(H1N1))",1
+"456","Influenza A virus (A/mallard/Beijing/27-MA/2011(H10N7))",1
+"457","Influenza A virus (A/mallard/Beijing/6/2016(H4N6))",1
+"458","Influenza A virus (A/Mallard/Sweden/599/2014(H3N8))",1
+"459","Influenza A virus (A/Milano/123/2011(H1N1))",1
+"460","Influenza A virus (A/northern shoveler/Nevada/AH0009328/2015(H7N8))",1
+"461","Influenza A virus (A/Pavo cristatus/Jiangxi/JA1/2016(H5N6))",1
+"462","Influenza A virus (A/poultry/China/XY918.4/2016(H5N6))",1
+"463","Influenza A virus (A/quail/Hong Kong/PA-G1/1997(H9N2))",1
+"464","Influenza A virus (A/Saudi Arabia/Tu-1/2015(H1N1))",1
+"465","Influenza A virus (A/swine/Nigeria/IBDVR002/2014(H1N1))",1
+"466","Influenza A virus (A/Thailand/CU-A2137/2016(H3N2))",1
+"467","Influenza A virus (A/Thailand/CU-B11417/2014(H3N2))",1
+"468","Influenza A virus (A/turkey/Indiana/16-001403-2/2016(H7N8))",1
+"469","Influenza A virus (A/turkey/Minnesota/5/1979(H10N7))",1
+"470","Influenza A virus (A/USSR/90/1977(H1N1))",1
+"471","Influenza A virus (A/wild bird/Jiangsu/H443/2015(H5N1))",1
+"472","Influenza A virus (A/wild waterfowl/Korea/7/2010(H9N2))",1
+"473","Influenza B virus (B/Malaysia/9012150273/2009)",1
+"474","Influenza B virus (B/Thailand/CU-B12073/2015)",1
+"475","Influenza B virus (B/Thailand/CU-B12113/2015)",1
+"476","Influenza D virus (D/swine/Guangdong/YS1/2016)",1
+"477","Influenza D virus (D/swine/Italy/268344-2/2015)",1
+"478","Iris yellow spot virus",1
+"479","Ixodes scapularis bunyavirus",1
+"480","Jacquemontia yellow vein virus",1
+"482","Jasmine virus H",1
+"485","Jujube mosaic-associated virus",1
+"486","Juquitiba virus",1
+"488","Kaeng Khoi virus",1
+"489","Kalanchoe latent virus",1
+"490","Kamese virus",1
+"491","Kanyawara virus",1
+"492","Karumba virus",1
+"493","Kielder hantavirus",1
+"494","Klebsiella phage 2b LV-2017",1
+"495","Klebsiella phage K5-2",1
+"496","Klebsiella phage K64-1",1
+"497","Klebsiella phage phiBO1E",1
+"498","Kyasanur Forest disease virus",1
+"499","Lactococcus phage 38502",1
+"500","Lactococcus phage PLg-TB25",1
+"501","Lactococcus phage R3.4",1
+"502","Lake Baikal phage Baikal-20-5m-C28",1
+"503","Lake Sinai virus",1
+"504","Latino mammarenavirus",1
+"505","Lentinula edodes partitivirus 1",1
+"506","Leptomonas Narna-like virus 1",1
+"507","Leptomonas pyrrhocoris tombus-like virus 1",1
+"508","Lettuce chlorosis virus",1
+"509","Leuconostoc phage LDG",1
+"510","LI polyomavirus",1
+"511","Linda virus",1
+"512","Linepithema humile virus 1",1
+"513","Little cherry virus 1",1
+"514","Livupivirus A",1
+"515","Long Pine Key virus",1
+"516","Longan witches broom-associated virus",1
+"518","Lychnis ringspot virus",1
+"520","Macacine alphaherpesvirus 1",1
+"521","Maguari virus",1
+"522","Maize associated rhabdovirus",1
+"523","Maize chlorotic mottle virus",1
+"525","Maize striate mosaic virus",1
+"527","Maize yellow striate virus",1
+"528","Malva potyvirus",1
+"529","Malva vein clearing virus",1
+"530","Mamastrovirus 1",1
+"531","Mamastrovirus 13",1
+"534","Mammarenavirus sp.",1
+"535","Marburg marburgvirus",1
+"536","Maripa hantavirus",1
+"537","Marten adenovirus type 1",1
+"538","Marten gammaherpesvirus 1",1
+"539","Mburo virus",1
+"540","Measles morbillivirus",1
+"541","Measles virus genotype D4",1
+"543","Medicago sativa alphapartitivirus 1",1
+"544","Mediterranean ruda virus",1
+"545","Melon severe mosaic tospovirus",1
+"546","Menghai flavivirus",1
+"547","Merida-like virus KE-2017a",1
+"548","Merida-like virus Turkey",1
+"549","Merkel cell polyomavirus",1
+"550","Metallosphaera turreted icosahedral virus",1
+"551","Methanosarcina spherical virus",1
+"552","Methylophilaceae phage P19250A",1
+"553","Micromonas polaris virus",1
+"555","Milk vetch dwarf C1 alphasatellite",1
+"556","Mimivirus AB-566-O17",1
+"557","Miniopterus schreibersii polyomavirus 1",1
+"558","Mink enteritis virus",1
+"559","Mint vein banding-associated virus",1
+"560","Mokola lyssavirus",1
+"561","Moku virus",1
+"562","Molluscum contagiosum virus subtype 2",1
+"563","Molossus molossus circovirus 1",1
+"564","Monkeypox virus",1
+"565","Morelia viridis nidovirus",1
+"567","Mumps virus genotype A",1
+"569","Mumps virus genotype G",1
+"570","Mungbean yellow mosaic India virus",1
+"571","Murine astrovirus",1
+"572","Murine hepatitis virus",1
+"573","Murine leukemia virus",1
+"574","Murmansk poxvirus",1
+"575","Muscovy duck parvovirus",1
+"576","Myotis lucifugus coronavirus",1
+"577","Myoviridae environmental samples",1
+"578","Mythimna unipuncta granulovirus B",1
+"579","Mythimna unipuncta nucleopolyhedrovirus",1
+"581","Nanay virus",1
+"582","Necromys lasiurus Hepatitis E virus",1
+"584","Nemesia ring necrosis virus",1
+"585","Neofusicoccum luteum fusarivirus 1",1
+"586","Neofusicoccum luteum mitovirus 1",1
+"588","NL63-related bat coronavirus",1
+"589","Norovirus bovine/GIII.2/BNoV-1/Sharkia/Egypt/2015",1
+"591","Norovirus GI.6",1
+"594","Norovirus GII.2",1
+"595","Norovirus GII.3",1
+"597","Norovirus GII/Hu/China/2009/GII.P7-GII.6/Beijing",1
+"598","Norovirus GII/Hu/HK/2016/GII.P16_GII.2/CUHK-NS-1082",1
+"600","Norovirus GVI",1
+"601","Norovirus Hu/GI.2/M13-133/2013/JP",1
+"602","Norovirus Hu/GII/1-2/Tokyo/1966/JPN",1
+"603","Norovirus Hu/GII/16-5/Tokyo/1970/JPN",1
+"604","Norovirus Hu/GII/2-1/Tokyo/1985/JPN",1
+"605","Norovirus Hu/GII/21-5/Tokyo/1975/JPN",1
+"606","Norovirus Hu/GII/JP/2013/GII.P16_GII.2/Tochigi-46",1
+"607","Norovirus Hu/GII/JP/2017/GII.P17_GII.17/Tokyo330021",1
+"608","Norovirus Hu/Guangzhou/GZ2013-L20/CHN/2013",1
+"609","Norovirus Hu/IDN/ITD2-2/2015/GII.2",1
+"610","Norway rat hepacivirus 1",1
+"611","Nova virus",1
+"612","Ochlerotatus caspius flavivirus",1
+"613","Ochrobactrum phage POA1180",1
+"615","Ohlsdorf virus",1
+"616","Okra leaf curl alphasatellite",1
+"617","Operophtera bruceata nucleopolyhedrovirus",1
+"618","Operophtera brumata nucleopolyhedrovirus",1
+"621","Orthopoxvirus sp.",1
+"622","Orthopoxvirus Tena Dona",1
+"623","Ostreid herpesvirus 1",1
+"624","Ovine gammaherpesvirus 2",1
+"625","Ovis aries papillomavirus type 4",1
+"626","Pan troglodytes adenovirus",1
+"627","Pan troglodytes verus cytomegalovirus 1",1
+"628","Panicum mosaic virus satellite RNA satC",1
+"629","Panicum mosaic virus satellite RNA satS",1
+"630","Panmunjeom flavivirus",1
+"634","Paramyxoviridae sp.",1
+"637","Paris mosaic necrosis virus",1
+"638","Pea necrotic yellow dwarf virus",1
+"639","Peach associated luteovirus",1
+"641","Pectobacterium phage CBB",1
+"642","Pectobacterium phage PhiM1",1
+"643","Pectobacterium phage PP2",1
+"644","Pelargonium zonate spot virus",1
+"645","Penguin herpesvirus 1",1
+"646","Penguin megrivirus",1
+"647","Penicillium aurantiogriseum partiti-like virus 1",1
+"648","Pepo aphid-borne yellows virus",1
+"649","Pepper chlorotic spot virus",1
+"650","Pepper cryptic virus 2",1
+"652","Pepper vein yellows virus",1
+"653","Pepper yellow leaf curl Indonesia virus",1
+"654","Perch perhabdovirus",1
+"655","Phlebovirus sp. B88",1
+"656","Phlebovirus sp. SL1-L",1
+"657","Phomopsis longicolla RNA virus 1",1
+"658","Picobirnavirus 504",1
+"659","Picobirnavirus dog/KNA/2015",1
+"660","Picobirnavirus green monkey/KNA/2015",1
+"661","Pigeon circovirus",1
+"662","Pigeon paramyxovirus 1",1
+"664","Pigeonpea sterility mosaic emaravirus 2",1
+"665","Piscine myocarditis virus",1
+"667","Piura virus",1
+"670","Porcine astrovirus 2",1
+"672","Porcine bocavirus 1",1
+"677","Porcine endogenous retrovirus",1
+"678","Porcine enteric alphacoronavirus GDS04",1
+"681","Porcine picobirnavirus",1
+"683","Porcine reproductive and respiratory syndrome virus 1",1
+"686","Porcine sapelovirus 1",1
+"687","Portuguese newt and toad ranavirus",1
+"688","Potato leafroll virus",1
+"689","Potato mop-top virus",1
+"690","Potato virus B",1
+"691","Potato virus M",1
+"694","Potato yellow mosaic Panama virus",1
+"695","Primate bocaparvovirus 1",1
+"696","Prochlorococcus phage P-TIM68",1
+"697","Prunus necrotic ringspot virus",1
+"698","Prunus virus F",1
+"699","Pseudoalteromonas phage PH357",1
+"700","Pseudoalteromonas phage vB_PspS-H40/1",1
+"701","Pseudocowpox virus",1
+"702","Pseudomonas phage SL4",1
+"703","Pseudomonas phage ZC01",1
+"704","Psittacine aviadenovirus B",1
+"705","Pteropine orthoreovirus",1
+"706","Punta Toro phlebovirus",1
+"708","Pygoscelis adeliae papillomavirus 2",1
+"709","Pyrus pyrifolia cryptic virus",1
+"710","Rabbit calicivirus",1
+"714","Rainbow trout orthomyxovirus-2",1
+"715","Rana catesbeiana virus 2",1
+"716","Ranid herpesvirus 3",1
+"717","Raspberry leaf mottle virus",1
+"718","Rattus norvegicus polyomavirus 2",1
+"719","Red seabream iridovirus",1
+"720","Reed chlorotic stripe virus",1
+"721","Reston ebolavirus",1
+"722","Rhesus adenovirus 54",1
+"723","Rhinolophus bat coronavirus HKU2",1
+"724","Rhinolophus blasii polyomavirus 1",1
+"725","Rhinolophus pusillus bocaparvovirus 1",1
+"728","Rhynchosia golden mosaic virus",1
+"729","Rice latent virus 1",1
+"730","Rice stripe mosaic virus",1
+"731","Rice virus A",1
+"735","Rocio virus",1
+"736","Rodent astrovirus",1
+"737","Rodent hepacivirus",1
+"738","Rodent paramyxovirus",1
+"739","Rodent Torque teno virus 3",1
+"741","Rotavirus A RVA/Human-wt/KEN/KDH30/2011/G1P[6]",1
+"742","Rotavirus A RVA/Human-wt/THA/KKL-117/2014/G9P[23]",1
+"743","Rotavirus B",1
+"744","Rotavirus C",1
+"745","Rotavirus D",1
+"747","Rotavirus G1",1
+"748","Rotavirus G3",1
+"749","Rotavirus I",1
+"750","Rousettus bat coronavirus HKU9",1
+"751","Rubella virus genotype 1E",1
+"752","Rubella virus genotype 2B",1
+"754","Saccharomyces cerevisiae virus L-A-2",1
+"755","Saccharomyces killer virus M2-4",1
+"756","Saccharomyces paradoxus L-A virus M21 satellite",1
+"757","Saccharomyces paradoxus L-A virus M62 satellite",1
+"758","Saccharomyces paradoxus virus L-A-21",1
+"759","Saffron latent virus",1
+"760","Salivirus A",1
+"762","Sambucus virus S",1
+"763","Sangassou orthohantavirus",1
+"765","Sapovirus GI",1
+"766","Sapovirus GII",1
+"767","Sapovirus GII.8",1
+"768","Sapovirus GIII",1
+"769","Sapovirus GIII/MoI2-1-1",1
+"770","Sapovirus Hu/GII/JP/2010/Kashiwa1",1
+"771","Sapovirus swine/TYMPo239/08/JP",1
+"772","Sapporo virus",1
+"773","Sea star-associated densovirus",1
+"774","Seal parapoxvirus",1
+"777","Senna mosaic virus",1
+"779","Serratia phage vB_Sru_IME250",1
+"781","Shallot virus X",1
+"782","Shamonda orthobunyavirus",1
+"783","Shearwaterpox virus",1
+"785","Simian-Human immunodeficiency virus",1
+"787","Simian T-lymphotropic virus 1",1
+"788","Simian T-lymphotropic virus 3",1
+"789","Sinorhizobium phage phi2LM21",1
+"790","Sinu virus",1
+"791","Skunk amdoparvovirus",1
+"793","Snake paramyxovirus",1
+"794","Snowshoe hare virus",1
+"795","Sodiomyces alkalinus fusarivirus 1",1
+"797","Sophora japonica powdery mildew-associated partitivirus",1
+"798","Sophora yellow stunt virus",1
+"799","Southern tomato virus",1
+"800","Sparus aurata betanodavirus",1
+"801","Spinach cryptic virus 1",1
+"802","Spinach deltapartitivirus 1",1
+"803","Spodoptera frugiperda rhabdovirus",1
+"804","Squash chlorosis mottling virus",1
+"805","Squash leaf curl Yunnan virus",1
+"806","Squirrel adenovirus 1",1
+"807","Staphylococcus phage 812",1
+"808","Staphylococcus phage Andhra",1
+"809","Staphylococcus phage HOB 14.1.R1",1
+"810","Staphylococcus phage P282",1
+"811","Staphylococcus phage phi575",1
+"812","Staphylococcus phage PVL-Sa2GN1",1
+"813","Staphylococcus phage vB_Sau_CG",1
+"814","Staphylococcus phage vB_SauM-fRuSau02",1
+"815","Statovirus A1",1
+"816","Strawberry pallidosis-associated virus",1
+"817","Strawberry vein banding virus",1
+"818","Streptococcus phage 73",1
+"819","Streptococcus phage D4276",1
+"820","Streptococcus phage IPP5",1
+"821","Streptococcus phage P0091",1
+"822","Sudan watermelon mosaic virus",1
+"823","Sugarcane bacilliform virus",1
+"825","Sugarcane streak mosaic virus",1
+"827","Sulfolobus islandicus rod-shaped virus 9",1
+"828","Sulfolobus polyhedral virus 1",1
+"829","Sulid herpesvirus 1",1
+"830","Sunflower ring blotch virus",1
+"831","Sus scrofa papillomavirus 2",1
+"832","Sweet potato feathery mottle virus",1
+"833","Sweet potato leaf curl Georgia virus",1
+"834","Sweet potato leaf curl Henan virus",1
+"835","Sweet potato leaf curl Japan virus",1
+"836","Sweet potato leaf curl Sichuan virus 1",1
+"838","Sweet potato symptomless virus 1",1
+"839","Swine hepatitis E virus",1
+"840","Tai Forest alphavirus",1
+"842","Taro bacilliform CH virus",1
+"843","Tarumizu tick virus",1
+"844","Tataguine virus",1
+"845","Taura syndrome virus",1
+"846","Tavallinen suomalainen mies virus",1
+"847","Teschovirus A",1
+"848","Thalassarchid herpesvirus 1",1
+"849","Thermus phage G20c",1
+"852","Tobacco leaf curl Cuba virus",1
+"853","Tobacco rattle virus",1
+"854","Tobacco ringspot virus",1
+"855","Tobacco virus 2",1
+"856","Tomato black ring virus",1
+"857","Tomato brown rugose fruit virus-israeli",1
+"858","Tomato chlorosis virus",1
+"860","Tomato leaf curl Burkina Faso virus",1
+"862","Tomato mild yellow leaf curl Aragua virus",1
+"864","Tomato mottle leaf curl virus",1
+"865","Tomato mottle mosaic virus",1
+"868","Tomato yellow leaf curl Kanchanaburi virus",1
+"870","Tomato yellow mottle-associated virus",1
+"872","Torque teno sus virus 1b",1
+"873","Torque teno virus",1
+"874","Toscana virus",1
+"875","Tremovirus A",1
+"876","Trichoderma atroviride mycovirus",1
+"877","Trichomonas vaginalis virus 1",1
+"878","TTV-like mini virus",1
+"879","Tula orthohantavirus",1
+"880","Turkey adenovirus 3",1
+"881","Turkeypox virus",1
+"884","uncultured archaeal virus",1
+"885","uncultured T7-like cyanophage",1
+"887","unidentified human coronavirus",1
+"888","unidentified phage",1
+"890","Vaccinia virus",1
+"891","Vesicular stomatitis New Jersey virus",1
+"892","Vibrio phage JSF4",1
+"893","Vibrio phage JSF5",1
+"894","Vibrio phage RYC",1
+"895","Vibrio phage vB_VspP_pVa5",1
+"896","Vicugna pacos polyomavirus 1",1
+"897","Vinegar Hill virus",1
+"899","Watermelon chlorotic stunt virus",1
+"900","Watermelon crinkle leaf-associated virus 1",1
+"902","Wencheng Sm shrew coronavirus",1
+"904","Western grey kangaroopox virus",1
+"905","Wheat dwarf virus",1
+"906","Wheat mosaic virus",1
+"908","Wild vitis virus 1",1
+"909","Wisteria badnavirus 1",1
+"910","Wobbly possum disease virus",1
+"911","Wolkberg virus",1
+"913","Yellow head virus",1
+"914","Yellow tailflower mild mottle virus",1

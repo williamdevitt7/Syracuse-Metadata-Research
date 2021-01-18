@@ -15,7 +15,7 @@ def import_sub_virus():
     count = 1992
     sub_virus_list = []
     for i in range(27):
-        data = pd.read_csv(r'C:\Users\Will\OneDrive\Documents\CollabNet_Research\Taxonomy_Virus_Data\Taxonomy_Network_Analysis\sub_virus\top_virus_name\sub_top-virus_taxname' + str(count) + '.csv')
+        data = pd.read_csv(r'C:\Users\Will\OneDrive\Documents\CollabNet_Research\Taxonomy_Virus_Data\Taxonomy_Network_Analysis\sub_top_virus_taxname_redo\sub_top_virus_taxname_redo\sub_top-virus_taxname' + str(count) + '.csv')
         df = pd.DataFrame(data, columns=['Var1','Freq'])
         df.rename(columns={'Freq': 'sub_freq'}, inplace=True)
         sub_virus_list.append(df)
@@ -27,7 +27,7 @@ def import_pub_virus():
     count = 1992
     pub_virus_list = []
     for i in range(27):
-        data = pd.read_csv(r'C:\Users\Will\OneDrive\Documents\CollabNet_Research\Taxonomy_Virus_Data\Taxonomy_Network_Analysis\pub_virus\top_virus_name\pub_top-virus_taxname' + str(count) + '.csv')
+        data = pd.read_csv(r'C:\Users\Will\OneDrive\Documents\CollabNet_Research\Taxonomy_Virus_Data\Taxonomy_Network_Analysis\pub_top_virus_taxname_redo\pub_top_virus_taxname_redo\pub_top-virus_taxname' + str(count) + '.csv')
         df = pd.DataFrame(data, columns=['Var1','Freq'])
         df.rename(columns={'Freq': 'pub_freq'}, inplace=True)
         pub_virus_list.append(df)
@@ -72,8 +72,8 @@ def discover_top_names(sub_vl, pub_vl, n):
     top_names_dict = sorted(top_names_dict.items(), key=lambda x: x[1], reverse=True)
     count = 0
     for key, value in top_names_dict:
-        print(key + " : ", end='')
-        print(value)
+        #print(key + " : ", end='')
+        #print(value)
         count += 1
         top_names_out.append(key)
         if count >= n:
@@ -111,7 +111,7 @@ def new_sub_lister(sub_vl, top_names_list):
     for i in range(len(sub_vl)):
         new_df = sub_top_name_binder(sub_vl[i], top_names_list)
         new_sub_vl.append(new_df)
-        #print(str(year),new_df)
+        print(str(year),new_df)
         year += 1
 
     return new_sub_vl
@@ -122,15 +122,11 @@ def new_pub_lister(pub_vl, top_names_list):
     for i in range(len(pub_vl)):
         new_df = pub_top_name_binder(pub_vl[i], top_names_list)
         new_pub_vl.append(new_df)
-        #print(str(year),new_df)
+        print(str(year),new_df)
         year += 1
 
     return new_pub_vl
 
-# takes a dataframe, checks if it contains data for every given virus name,
-# and if not, adds each missing virus name to the dataframe. call this in binders
-def dataFrame_Normalizer(top_names_list, df):
-    print("fuck")
 #######################################################################################
 
 def plot_and_display(sub_vl, pub_vl, top_cts): # takes final sub and pub of 9 3yr aggs each and plots them
@@ -159,13 +155,13 @@ if __name__ == '__main__': # execute code / main
     #print(top_vir_cts)
     # n is the number of years desired in top virus names list
     top_virus_list = discover_top_names(sub_virus_list, pub_virus_list, 10)
-    #pub_top_virus_list = discover_top_names([], pub_virus_list, 5)
-    #sub_top_virus_list = discover_top_names(sub_virus_list, [], 5)
+    #pub_top_virus_list = discover_top_names([], pub_virus_list, 10)
+    #sub_top_virus_list = discover_top_names(sub_virus_list, [], 10)
     new_sub_vl = new_sub_lister(sub_virus_list, top_virus_list)
     new_pub_vl = new_pub_lister(pub_virus_list, top_virus_list)
     #print(new_sub_vl)
     #print(new_pub_vl)
 
-    plot_and_display(new_sub_vl, new_pub_vl, top_vir_cts)
+    #plot_and_display(new_sub_vl, new_pub_vl, top_vir_cts)
 
 
