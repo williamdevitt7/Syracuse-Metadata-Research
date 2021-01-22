@@ -1,14 +1,14 @@
 ####################################################################################
-# Python program
-# for plotting virus data via Trellis plot
-# Sep 18, 2020
-# two lines: orange / blue = sub_virus / pub_virus
+# Python program for extracting virus research information from NIH data
+# 1/22/2021
+# Returns most common viruses over our time period,
+# as well as returns counts of papers on those viruses from any specific year
+# with a given list of virus names.
 #####################################################################################
 
 # imports and declarations
 import pandas as pd
-from matplotlib import pyplot as plt
-#import numpy as np
+import matplotlib as plt
 
 # sub-virus csv imports
 def import_sub_virus():
@@ -44,9 +44,9 @@ def import_top_vir_cts():
 ########################################################################################
 
 # FUNC: finding top virus names (iterate thru, count occurences of names by year and total)
-# maybe call this explicitly on certain years (pass n parameter that determines either specific year or # of times run)
 # operates in O(N) time
-# to get sub or pub only, pass an empty list for one
+# to get sub or pub only, pass an empty list for either sub_vl or pub_vl
+# can be edited with simple changes to __main__
 def discover_top_names(sub_vl, pub_vl, n):
     top_names_out = []
     top_names_dict = {}  # both
