@@ -6,6 +6,8 @@
 #################################################################
 
 import pandas as pd
+import pycountry
+
 
 def import_sub_els():
     count = 1992
@@ -19,6 +21,13 @@ def import_sub_els():
 
 #################################################################
 
+
+def return_country_from_string(text):
+    for country in pycountry.countries:
+        if country.name in text:
+            return country.name
+
+
 if __name__ == '__main__':
     sub_els_list = import_sub_els()
-    print(sub_els_list[0])
+    # print(sub_els_list[0])
