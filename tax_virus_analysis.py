@@ -73,7 +73,7 @@ def discover_top_names(sub_vl, pub_vl, n):
     count = 0
     for key, value in top_names_dict:
         #print(key + " : ", end='')
-        #print(value)
+        print(key)
         count += 1
         top_names_out.append(key)
         if count >= n:
@@ -151,7 +151,7 @@ def plot_and_display(sub_vl, pub_vl, top_cts): # takes final sub and pub of 9 3y
 if __name__ == '__main__': # execute code / main
     sub_virus_list = import_sub_virus() # list of all .csv files for sub_virus
     pub_virus_list = import_pub_virus() # list of all .csv files for pub_virus
-    top_vir_cts = import_top_vir_cts()
+    #top_vir_cts = import_top_vir_cts()
     #print(top_vir_cts)
     # n is the number of years desired in top virus names list
     top_virus_list = discover_top_names(sub_virus_list, pub_virus_list, 10)
