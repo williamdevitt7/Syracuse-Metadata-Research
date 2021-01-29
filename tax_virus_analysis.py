@@ -152,15 +152,12 @@ if __name__ == '__main__': # execute code / main
     sub_virus_list = import_sub_virus() # list of all .csv files for sub_virus
     pub_virus_list = import_pub_virus() # list of all .csv files for pub_virus
     #top_vir_cts = import_top_vir_cts()
-    #print(top_vir_cts)
     # n is the number of years desired in top virus names list
-    top_virus_list = discover_top_names(sub_virus_list, pub_virus_list, 10)
+    top_virus_list = discover_top_names(sub_virus_list, pub_virus_list, 0)
     #pub_top_virus_list = discover_top_names([], pub_virus_list, 10)
     #sub_top_virus_list = discover_top_names(sub_virus_list, [], 10)
     new_sub_vl = new_sub_lister(sub_virus_list, top_virus_list)
     new_pub_vl = new_pub_lister(pub_virus_list, top_virus_list)
-    #print(new_sub_vl)
-    #print(new_pub_vl)
 
     #plot_and_display(new_sub_vl, new_pub_vl, top_vir_cts)
 
