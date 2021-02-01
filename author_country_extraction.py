@@ -41,6 +41,34 @@ def parse_country_from_dataframe(df):
 
     return df
 
+# takes a list of years (df's), determines top countries over those years for a virus
+# pass one virus name from main to get specific viruses
+# pass a timeframe (eg 2005 - 2011)
+# n is the number of countries printed
+def discover_top_countries(years_list, n):
+    top_names_out = []
+    top_names_dict = {}
+
+    for i in range(len(years_list)):
+        for j in range(len(years_list[i]["journal"].array)):
+            # if key in dictionary, add its frequency to the existing value
+            if ((years_list[i]["journal"].array[j]) in top_names_dict):
+                top_names_dict[years_list[i]["journal"].array[j]] += 1
+            # else, add key and its existing value to dictionary
+            else:
+                top_names_dict[years_list[i]["journal"].array[j]] = 1
+
+    top_names_dict = sorted(top_names_dict.items(), key=lambda x: x[1], reverse=True)
+    count = 0
+    for key, value in top_names_dict:
+        print(key + " : " + str(value))
+        count += 1
+        top_names_out.append(key)
+        if count >= n:
+            break
+
+    return top_names_out  # of length n - total virus names in sub and pub
+
 
 # takes a dataframe (of 1 year of data) & a list of names, trimming the dataframe to only include
 # entries for the specified viruses
@@ -66,11 +94,15 @@ def sub_el_lister(sub_el_list, top_vir_list):
     for i in range(len(sub_el_list)):
         new_df = virus_name_binder(sub_el_list[i], top_vir_list)
         new_df = parse_country_from_dataframe(new_df)
-        # apply country counter function here
         new_el_list.append(new_df)
-        print(str(year), new_df)
+        # print(str(year), new_df)
         year += 1
 
+    # desired virus passed from main
+    # list markers: 1992 = 0, 2018 = 27
+    # 2000 = 9, 2010 = 19
+    print("Top 10 countries working on West Nile virus, 2008-2012 worldwide outbreak")
+    discover_top_countries(new_el_list[17:21],10)
     return new_el_list
 
 
@@ -78,8 +110,7 @@ if __name__ == '__main__':
     top_virus_list = ["Human immunodeficiency virus 1", "Dengue virus 2", "Dengue virus 1",
                       "Dengue virus 3", "West Nile virus", "Hepacivirus C", "Hepatitis C virus subtype 1a",
                       "Hepatitis B virus", "Zika virus", "Hepatitis E virus"]
-    top_virus_list_TEST = ["Human immunodeficiency virus 1", "Dengue virus 2", "Dengue virus 1",
-                      "Dengue virus 3", "West Nile virus"]
+    top_virus_list_TEST = ["West Nile virus"]
 
     sub_els_list = import_sub_els()
     # pub_els_list = import_pub_els()
